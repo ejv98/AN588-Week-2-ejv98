@@ -159,6 +159,9 @@ v[seq(from = 1, to = 100, by = 2)]
 <!-- Challenge 1 -->
 <!-- I extracted the elements by indexing the sequence I believe it is called. -->
 
+#comments - cece
+#Challange 1:looks good, this is exactly what I did (I also didn't use stringr, seemed harder than the other command)
+
 ```{r}
 v<-c("Stately","plump","Black","Mulligan","came","from","the","stairhead","bearing","a","bowl","of","lather","on","which","a","mirror","and","a","razor","lay","crossed")
 x<-v[seq(1,length(v),3)]
@@ -183,7 +186,8 @@ x
 ## [1] 36
 
 <!-- Challenge 2 -->
-
+#comments - Cece
+#challange 2: again, same thing that I did, everything looks good and runs well
 ```{r}
 m <- matrix(data = 1:80, nrow = 8, ncol = 10, byrow = FALSE)
 m
@@ -196,7 +200,8 @@ x
 ```
 
 Challenge 3
-
+#Comments - cece
+#challenge 3: to fix the error in the number of dimentions, go to your original array (a) and for the section "dim=c(5,4,4)" change it to "dim = c(5,5,4,4)", so it has 4 dimentions, like what you are asking for in your later commands
 ```{r}
 a<-array(data=400:1,dim=c(5,4,4))
 a
@@ -224,6 +229,8 @@ l
 
 <!-- Challenge 4 -->
 
+#Comments - cece
+#challange 4: everything runs well and same as mine
 ```{r}
 Lemuroidea <- c("Cheirogaleidae", "Lepilemuridae", "Indriidae", "Lemuridae",
     "Daubentoniidae")
@@ -259,7 +266,8 @@ df$school <- c("BU", "BU", "Harvard", "Harvard", "BU", "Boston College", "MIT",
     "MIT", "Harvard", "BU", "UMASS Boston", "Harvard")
 
 <!-- Challenge 5 -->
-
+#comments - cece
+#challenge 5: code is same as mine besides the nrow and ncol (I have them switched but honestly idk which it is). I'm glad to see you have the same code, because I wasn't totally confident in mine, but this looks good to me!
 ```{r}
 m3 <- matrix(data= c( 3, 0, 1 ,23, 1, 2, 33, 1, 1, 42, 0, 1, 41, 0, 2), nrow = 3, ncol = 5, byrow = TRUE)
 m3
